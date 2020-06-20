@@ -1,4 +1,4 @@
-var twoSum = function(nums, target) {
+const twoSum = (nums, target) => {
     let indicesArray = []
     let numsMap = {}
     for(let i = 0; i < nums.length; i++){
@@ -10,3 +10,5 @@ var twoSum = function(nums, target) {
     }
     return indicesArray;
 };
+
+twoSum([1,2,3], 4);
